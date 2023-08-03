@@ -1,0 +1,45 @@
+body {
+ margin: 0 auto;
+}
+
+#root {
+  /* max-width: 1280px; */
+  margin: 0;
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+  
+}
+.card{
+  
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: black;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
+.container {
+  width: 1220px;
+}
+.link_h3{
+  text-decoration: none;
+}
