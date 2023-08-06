@@ -20,8 +20,6 @@ export default function PatchJs() {
             <h2>name: {oneProduct.description}</h2>
             <h2>Body: {oneProduct.id}</h2>
             <p>price: {oneProduct.price}$</p>
-
-           
             <img src={oneProduct.image} alt=""/>
     </>
   )

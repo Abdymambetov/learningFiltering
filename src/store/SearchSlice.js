@@ -19,7 +19,7 @@ const SearchSlice=createSlice({
         }
     }
 })
-export const getProductsAsunc=createAsyncThunk(
+export const getProductsAsync=createAsyncThunk(
     'getProductsAsunc',
     async (param,{dispatch})=>{
         const response= await axios.get('https://fakestoreapi.com/products/')

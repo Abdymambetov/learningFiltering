@@ -9,6 +9,7 @@ import HttpApi from 'i18next-http-backend';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import PatchJs from './page/patchJs'
 import LanguageFlags from './page/languageFlags'
+import MenuComponent from './components/Menu'
 
 
 
@@ -34,13 +35,12 @@ function App() {
     <div className="App">
       <Provider store={store}>
         <BrowserRouter>
+        <MenuComponent/>
           <Routes>
             <Route path='/' element={<HomePage/>}/> 
-            <Route path='/flag' element={<LanguageFlags/>}/>
             <Route path='/:id' element={<PatchJs/>}/>
           </Routes> 
         </BrowserRouter>
-          
       </Provider>
     </div>
   )

@@ -1,10 +1,8 @@
-body {
+/* body {
  margin: 0 auto;
-}
+} */
 
 #root {
-  /* max-width: 1280px; */
-  margin: 0;
   text-align: center;
 }
 
@@ -24,7 +22,6 @@ body {
   
 }
 .card{
-  
   width: 300px;
   height: 150px;
   padding: 10px;
@@ -35,11 +32,20 @@ body {
   color: black;
   border-radius: 10px;
   margin-top: 20px;
+  margin-right: 5px;
   
 }
 .container {
+  margin: 0 auto;
   width: 1220px;
 }
 .link_h3{
   text-decoration: none;
+}
+.button{
+  width: 60px;
+  height: 52px;
+  border-radius: 0px 8px 8px 0px !important;
+  margin-left: 10px;
+  background-color: black;
 }
